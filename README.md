@@ -5,6 +5,9 @@
 
 A curated list of awesome Model Context Protocol (MCP) clients.
 
+> [!NOTE]
+> For most up to date MCP client list, please refer to https://glama.ai/mcp/clients
+
 * [What is MCP?](#what-is-mcp)
 * [Community](#community)
 * [Clients](#clients)
@@ -29,7 +32,9 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [eechat](#eechat)
     - [5ire](#5ire)
     - [Agent Bridge](#agent-bridge)
+    - [AgentOne](#agentone)
     - [AIaW](#aiaw)
+    - [Ano](#ano)
     - [AstrBot](#AstrBot)
     - [Autohand Code CLI](#autohand-code-cli)
     - [AnythingLLM](#anythingllm)
@@ -225,6 +230,30 @@ A deployable web-based agent platform for remote MCP servers featuring human-in-
 
 </details>
 
+### AgentOne
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/AgentOne-Dev/agent-one-public</td></tr>
+<tr><th align="left">Website</th><td>https://www.agent-one.dev</td></tr>
+<tr><th align="left">License</th><td>Proprietary</td></tr>
+<tr><th align="left">Type</th><td>Desktop app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript, Rust</td></tr>
+</table>
+
+AgentOne is a fully-featured AI agent desktop app that takes a goal in plain language and carries it out end-to-end across your apps. It connects 600+ AI models from 20+ providers (OpenAI, Anthropic, Google, xAI, Mistral, Groq, Cerebras, and more) with 2,000+ extensions for apps like Gmail, Notion, Slack, GitHub, and Google Calendar, and supports user-added MCP servers for further extensibility. Multiple agents can run in parallel, your data stays on your device by default, and you can bring your own API keys with no markup.
+
+Learn more on the [website](https://www.agent-one.dev), [docs](https://docs.agent-one.dev), or [blog](https://blog.agent-one.dev). Get help on the [forum](https://forum.agent-one.dev).
+
+<details>
+<summary>Screenshots</summary>
+
+![Screenshot of AgentOne chat UI](./screenshots/agent-one/1.png)
+![Screenshot of AgentOne settings page on account tab](./screenshots/agent-one/2.png)
+
+</details>
+
 ### AIaW
 
 <table>
@@ -247,6 +276,20 @@ AIaW is a cross-platform, full-featured and lightweight AI Chat client with full
 ![](./screenshots/aiaw/dark.png)
 
 </details>
+
+### Ano
+
+<table>
+<tr><th align="left">GitHub</th><td>-</td></tr>
+<tr><th align="left">Website</th><td>https://ano.chat/</td></tr>
+<tr><th align="left">License</th><td>Proprietary</td></tr>
+<tr><th align="left">Type</th><td>Web, Desktop app</td></tr>
+<tr><th align="left">Platforms</th><td>macOS, Windows, Linux, Web</td></tr>
+<tr><th align="left">Pricing</th><td>Free (during beta)</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript, Rust, Swift</td></tr>
+</table>
+
+**Ano** is a collaborative chat and workspace for devs that features a native in-app terminal and integrated AI (like Claude Code). It is built as an MCP client, allowing users to run local CLIs, trigger custom automations, and connect to any Model Context Protocol (MCP) server directly from their channels.
 
 ### AstrBot
 <table>
