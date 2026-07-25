@@ -313,7 +313,7 @@ The all-in-one AI app you were looking for. Chat with your docs, use AI Agents, 
 <tr><th align="left">Website</th><td>https://bernstein.run</td></tr>
 <tr><th align="left">License</th><td>Apache 2.0</td></tr>
 <tr><th align="left">Type</th><td>CLI orchestrator</td></tr>
-<tr><th align="left">Platforms</th><td>Linux, MacOS, Windows (WSL), Docker</td></tr>
+<tr><th align="left">Platforms</th><td>Linux, MacOS, Windows, Docker</td></tr>
 <tr><th align="left">Pricing</th><td>Free</td></tr>
 <tr><th align="left">Programming Languages</th><td>Python</td></tr>
 </table>
