@@ -361,7 +361,7 @@ The all-in-one AI app you were looking for. Chat with your docs, use AI Agents, 
 <tr><th align="left">Programming Languages</th><td>Python</td></tr>
 </table>
 
-Bernstein is a deterministic Python orchestrator that runs a crew of CLI coding agents (Claude Code, Codex, Gemini, Aider, Cursor, and 40 more) in parallel git worktrees. Each spawned agent inherits an MCP client config so that downstream tools speak MCP. Bundles its own MCP server mode for the orchestrator state, plus an HMAC-SHA256 chained audit log per task.
+Bernstein is a deterministic Python orchestrator that runs a crew of CLI coding agents (Claude Code, Codex, Gemini, Aider, Cursor, and 40+ more) in parallel git worktrees. Each spawned agent inherits an MCP client config so that downstream tools speak MCP. Bundles its own MCP server mode for the orchestrator state, plus an opt-in HMAC-SHA256 chained audit log per task that can be verified offline.
 
 ### BrowseWiz
 
